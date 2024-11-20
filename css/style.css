@@ -1,0 +1,436 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.home{
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+    background-attachment: scroll;
+   
+}
+.home .home-layer{
+    background-color: rgba(0,0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home .home-layer .layer-content{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+
+}
+.home .home-layer .layer-content h1{
+    font-size: 50px !important;
+}
+
+.home .home-layer .layer-content .hero-subtitle span::after{
+    content: "";
+    animation-name: typingword;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+   
+
+}
+@keyframes typingword {
+    0%{content: "";}
+    1%{content: "Dev|";}
+    2%{content: "Devel|";}
+    3%{content: "Develop|";}
+    5%{content: "Develope|";}
+    7%{content: "Developer|";}
+    12%{content: "Developer|";}
+    18%{content: "Developer|";}
+    15%{content: "Develope|";}
+    18%{content: "Develop|";}
+    20%{content: "Devel|";}
+    23%{content: "Dev|";}
+    25%{content: "De|";}
+    26%{content: "Des|";}
+    28%{content: "Desig|";}
+    30%{content: "Design|";}
+    32%{content: "Designe|";}
+    34%{content: "Designer|";}
+    42%{content: "Designer|";}
+    43%{content: "Designe|";}
+    44%{content: "Design|";}
+    45%{content: "Desig|";}
+    47%{content: "Des|";}
+    48%{content: "De|";}
+    49%{content: "D|";}
+    50%{content: "|";}
+    52%{content: "Fr|";}
+    53%{content: "Free|";}
+    54%{content: "Freel|";}
+    55%{content: "Freela|";}
+    56%{content: "Freelan|";}
+    57%{content: "Freelance|";}
+    59%{content: "Freelancer|";}
+    66%{content: "Freelancer|";}
+    67%{content: "Freelance|";}
+    68%{content: "Freelan|";}
+    70%{content: "Freela|";}
+    71%{content: "Freel|";}
+    72%{content: "Free|";}
+    73%{content: "Fr|";}
+    74%{content: "|";}
+
+
+    75%{content: "ph|";}
+    76%{content: "pho|";}
+    78%{content: "photo|";}
+    79%{content: "photogr|";}
+    81%{content: "photograp|";}
+    82%{content: "photographe|";}
+    85%{content: "photographer|";}
+    90%{content: "photographer|";}
+    91%{content: "photographe|";}
+    93%{content: "photograp|";}
+    95%{content: "photogr|";}
+    96%{content: "photo|";}
+    97%{content: "pho|";}
+    98%{content: "ph|";}
+    100%{content: "|";}
+    
+
+    
+   
+}
+
+.bg-Mynav{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    color: #fff !important;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 99999 !important;
+ }
+
+
+
+ .main{
+    background-color:#F5F5F5 ; 
+ }
+
+
+ /* ABOUT CSS CODE */
+
+ 
+
+
+ .about-us .container{
+    background-color:#fff;
+ }
+ .about-us .container .line-about{
+    width: 110px;
+    height: 3px;
+    background-color: #0078ff;
+    
+ }
+
+/* SERVICES CSS */
+
+
+
+
+
+ .services .container .title-box .line-mf{
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+ }
+ .services .container .row .service-box .service-ico .ico-circle{
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .services .container .row .service-box:hover .ico-circle{
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #cde1f8;
+    color: #fff;
+}
+
+
+
+/* COUNTER CODE */
+.my-counter{
+    background-image: url(../images/post-3.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    /* height:50vh; */
+   
+    
+}
+.my-counter .counter-layer{
+    background-color:rgba(0,120,255, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+}
+.my-counter .container{
+   color: #ffffff !important;
+}
+
+.my-counter .container .row .counter-box .counter-ico{
+    height: 60px;
+    width: 60px; 
+    padding: 30px;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #cde1f8;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+/* PORTFOLIO CSS CODE */
+
+.portfolio .container .title-box .line-mf{
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+ }
+ .portfolio .container .work-content .icon{
+    height: 30px;
+    width: 30px; 
+    padding: 20px;
+    font-size: 1rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 4px #0078ff;
+    color: #0078ff;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+ }
+ .portfolio .container .work-content span{
+    font-size: 13px !important;
+ }
+ .portfolio .container .work-content  .w-ctegory{
+    color: #0078ff !important;
+    font-size: 15px !important;
+ }
+ .portfolio .container .work-box img{
+    transition: transform 1s;
+   
+   
+    /* box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.1); */
+ }
+ 
+ .portfolio .container .work-box:hover img{
+    transform: scale(1.3);
+
+
+   
+ }
+
+
+
+ /* BLOG CSS CODE */
+
+ .blog .container .title-box .line-mf{
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+ }
+
+ @media screen and (min-width:768px){
+    .my-counter{
+       
+        height:50vh !important;
+       
+        
+    }
+    .my-counter .container .row{
+        
+        margin-top: 40px;
+    }
+
+
+    
+ }
+
+
+ /* SLIDER CSS CODE */
+ .slider{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+ }
+ .slider-layer{
+    background-color:rgba(0,120,255, 0.7);
+
+ }
+ .carousel-indicators{
+    top: 100%;
+ }
+ .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+ /* BLOG CSS CODE */
+
+ .blog .container .row .hover:hover span{
+    color: #0078ff;
+
+ }
+ 
+
+ /* last css */
+ .last{
+    background-image: url(../images/bac.jpg);
+    background-size: cover;
+height: 100vh;
+    background-attachment: fixed;
+    position: relative;
+
+}
+.layer4{
+    position: absolute;
+    background-color: rgba(0, 120, 255, 0.7);
+    left: 0%;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+.Subject{
+    margin-bottom: 15px;
+}
+.Subject input{
+width: 90%;
+padding: 12px 20px;
+outline: none;
+}
+textarea{
+    width: 90%;
+    height: 130px;
+    margin: 8px 0px;
+    resize: vertical;
+    outline: none;
+    
+}
+input:focus{
+    border: 2px solid blue;
+}
+textarea:focus{
+    border: 2px solid blue;
+
+}
+form button{
+    padding: 15px 15px ;
+    background-color: blue;
+    border: none;
+    border-radius: 5px; 
+    color: white;
+    transition:all 1s ;
+    
+    
+
+}
+form button:hover{
+    background-color:rgb(121, 121, 235);
+
+}
+
+.neme{
+
+
+    margin-bottom: 15px;
+}
+.neme input{
+width: 90%;
+padding: 12px 20px;
+outline: none;
+}
+.Email {
+
+
+    margin-bottom: 15px;
+}
+.Email input{
+width: 90%;
+padding: 12px 20px;
+outline: none;
+}
+
+
+.last .icon{
+    border: 5px solid blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+ .last .icon:hover{
+    border: 5px solid #cde1f8;
+    background-color: blue;
+    color: white;
+    
+}
+.text{
+    color: white;
+    background-color:#0062D3 ;
+    text-align: center;
+}
+.last .line-mf{
+    width: 100px;
+    height: 3px;
+    background-color: #0078ff;
+   
+}
+
